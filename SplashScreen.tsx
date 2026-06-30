@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-const mustLogo = '/images/must logo.jpg';
+import { useApp } from 'AppContext';
+const mustLogo = 'must logo.jpg';
 
 export default function SplashScreen() {
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ export default function SplashScreen() {
     <div className="min-h-screen must-shield-bg flex items-center justify-center relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: `url("/images/must-pattern.png")`,
+        backgroundImage: `url("must-pattern.png")`,
         backgroundSize: '400px',
         backgroundRepeat: 'repeat',
       }} />
