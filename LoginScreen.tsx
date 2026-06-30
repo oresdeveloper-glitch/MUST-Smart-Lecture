@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import { Mail, Lock, Eye, EyeOff, AlertCircle, ArrowRight } from 'lucide-react';
 
-const mustLogo = '/images/must logo.jpg';
-const mustBuilding = '/images/must-main-building.png';
+const mustLogo = 'must logo.jpg';
+const mustBuilding = 'must-main-building.png';
 
 export default function LoginScreen() {
   const navigate = useNavigate();
