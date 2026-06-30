@@ -1,6 +1,6 @@
-import { useApp } from '../context/AppContext';
+import { useApp } from 'AppContext';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { cn } from '../utils/cn';
+import { cn } from 'cn';
 import {
   Calendar, Bell, MessageSquare, BookOpen, ClipboardList,
   ClipboardCheck, BarChart3, Settings, AlertTriangle, LogOut,
@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 
-const mustLogo = '/images/must logo.jpg';
+const mustLogo = 'must logo.jpg';
 import { useState, useEffect } from 'react';
 
 interface NavItem {
