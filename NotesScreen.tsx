@@ -1,10 +1,10 @@
 import { useState, useRef, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import MustPageBackground from '../components/MustPageBackground';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import MustPageBackground from 'MustPageBackground';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import { Search, BookOpen, Download, Bookmark, FileText, File, Image, Video, Music, Upload, X } from 'lucide-react';
-import type { Note } from '../types';
+import type { Note } from 'indexies';
 
 const typeIcons: Record<string, { icon: any; color: string }> = {
   pdf: { icon: FileText, color: 'text-red-500 bg-red-50 dark:bg-red-900/20' },
