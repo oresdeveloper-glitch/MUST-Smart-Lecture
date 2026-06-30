@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Bell, BookOpen, MessageSquare, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
-import { cn } from '../utils/cn';
+import { cn } from 'cn';
 
-const mustLogo = '/images/must logo.jpg';
+const mustLogo = 'must logo.jpg';
 
 const slides = [
   {
