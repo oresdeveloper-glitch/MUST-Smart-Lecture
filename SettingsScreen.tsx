@@ -1,6 +1,6 @@
-import { useApp } from '../context/AppContext';
-import MustPageBackground from '../components/MustPageBackground';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import MustPageBackground from 'MustPageBackground';
+import { cn } from 'cn';
 import { Moon, Sun, Bell, Globe, Shield, Wifi, Download, User, LogOut, ChevronRight, Volume2, Languages, Calendar } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
