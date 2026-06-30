@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
-import { useApp } from '../context/AppContext';
-import MustPageBackground from '../components/MustPageBackground';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import MustPageBackground from 'MustPageBackground';
+import { cn } from 'cn';
 import { TrendingUp, Users, Target, Award, Activity, Clock, BarChart3, Zap } from 'lucide-react';
 
 export default function AnalyticsScreen() {
