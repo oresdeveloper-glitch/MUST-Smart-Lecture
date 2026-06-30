@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-import MustPageBackground from '../components/MustPageBackground';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import MustPageBackground from 'MustPageBackground';
+import { cn } from 'cn';
 import { ArrowLeft, Send, Paperclip, Mic, MoreVertical, Phone, Video, Pin, CheckCheck } from 'lucide-react';
 
 export default function ChatDetailScreen() {
