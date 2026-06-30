@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import MustPageBackground from '../components/MustPageBackground';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import MustPageBackground from 'MustPageBackground';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import { ChevronLeft, ChevronRight, Clock, MapPin, Download, Calendar as CalendarIcon } from 'lucide-react';
 
 const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
