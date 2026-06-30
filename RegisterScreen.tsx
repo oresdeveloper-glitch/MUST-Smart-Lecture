@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-import type { UserRole } from '../types';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import type { UserRole } from 'indexies';
+import { cn } from 'cn';
 
-const mustLogo = '/images/must logo.jpg';
+const mustLogo = 'must logo.jpg';
 import { Mail, Lock, User, AlertCircle, Eye, EyeOff, ArrowLeft } from 'lucide-react';
 
 export default function RegisterScreen() {
