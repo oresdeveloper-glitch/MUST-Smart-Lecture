@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-import type { UserRole } from '../types';
+import { useApp } from 'AppContext';
+import type { UserRole } from 'indexies';
 import { GraduationCap, Shield, Users, ArrowRight } from 'lucide-react';
 
 export default function RoleSelectionScreen() {
