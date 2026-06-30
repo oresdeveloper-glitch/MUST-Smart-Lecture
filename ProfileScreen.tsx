@@ -1,6 +1,6 @@
-import { useApp } from '../context/AppContext';
-import MustPageBackground from '../components/MustPageBackground';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import MustPageBackground from 'MustPageBackground';
+import { cn } from 'cn';
 import { Mail, Phone, BookOpen, Building2, Shield, Calendar, Camera, Award, Star, Zap, Trophy, Edit3 } from 'lucide-react';
 
 export default function ProfileScreen() {
