@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import MustPageBackground from '../components/MustPageBackground';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import MustPageBackground from 'MustPageBackground';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import { Bell, BellOff, Megaphone, AlertTriangle, Clock, Info, CheckCheck, Send, X } from 'lucide-react';
 
 const typeIcons: Record<string, { icon: any; color: string }> = {
