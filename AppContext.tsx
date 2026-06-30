@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
-import type { User, UserRole, Announcement, Note, Assignment, Chat, ChatMessage, AttendanceRecord, Notification, Badge, LeaderboardEntry, AnalyticsData, Course } from '../types';
+import type { User, UserRole, Announcement, Note, Assignment, Chat, ChatMessage, AttendanceRecord, Notification, Badge, LeaderboardEntry, AnalyticsData, Course } from 'indexies';
 
 
 
