@@ -1,13 +1,13 @@
 import { useNavigate } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import {
   Clock, MapPin, Bell, BookOpen, ClipboardList, Users,
   Calendar, TrendingUp, Upload, MessageSquare, QrCode,
   ChevronRight, Zap
 } from 'lucide-react';
 
-import MustPageBackground from '../components/MustPageBackground';
+import MustPageBackground from 'MustPageBackground';
 
 export default function LecturerDashboard() {
   const navigate = useNavigate();
