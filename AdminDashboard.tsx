@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
+import { useApp } from 'AppContext';
 import {
   Users, BookOpen, Calendar, Activity,
   Bell, GraduationCap, AlertTriangle, BarChart3, Settings,
   UserPlus, TrendingUp, Shield, Zap
 } from 'lucide-react';
 
-import MustPageBackground from '../components/MustPageBackground';
+import MustPageBackground from 'MustPageBackground';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
