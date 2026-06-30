@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
-import MustPageBackground from '../components/MustPageBackground';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import MustPageBackground from 'MustPageBackground';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import { Search, MessageSquare, Users, Plus } from 'lucide-react';
 import { useState } from 'react';
 
