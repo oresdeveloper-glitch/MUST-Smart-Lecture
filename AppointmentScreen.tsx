@@ -1,15 +1,15 @@
 import { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import { 
   CalendarPlus, Clock, MapPin, Search, 
   CheckCircle, XCircle,
   MoreVertical, CalendarDays
 } from 'lucide-react';
 
-import type { Appointment } from '../types';
-import MustPageBackground from '../components/MustPageBackground';
+import type { Appointment } from 'indexies';
+import MustPageBackground from 'MustPageBackground';
 
 
 
