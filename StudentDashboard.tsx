@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom';
-import { useApp } from '../context/AppContext';
-import { cn } from '../utils/cn';
+import { useApp } from 'AppContext';
+import { cn } from 'cn';
 import {
   Clock, MapPin, Bell, BookOpen, ClipboardList, MessageSquare,
   Calendar, TrendingUp, AlertTriangle, Timer, Sparkles,
   ChevronRight, Zap, QrCode, Star, Users, CalendarPlus
 } from 'lucide-react';
-import MustPageBackground from '../components/MustPageBackground';
+import MustPageBackground from 'MustPageBackground';
 
 
 
@@ -75,7 +75,7 @@ export default function StudentDashboard() {
       {/* ─── Next Class — Premium Countdown Card ─── */}
       {nextClass && (
         <div className="relative overflow-hidden rounded-2xl must-shield-bg p-5 lg:p-6 shadow-xl shadow-[#0a1628]/20">
-          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: `url("/images/must-pattern.png")`, backgroundSize: '300px', backgroundRepeat: 'repeat' }} />
+          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: `url("must-pattern.png")`, backgroundSize: '300px', backgroundRepeat: 'repeat' }} />
           <div className="absolute -top-12 -right-12 w-40 h-40 rounded-full bg-[var(--must-gold)]/10 blur-2xl" />
           <div className="absolute -bottom-12 -left-12 w-40 h-40 rounded-full bg-blue-400/5 blur-2xl" />
 
